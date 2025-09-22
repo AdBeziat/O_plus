@@ -1,0 +1,20 @@
+#### OUTIL POUR L'AIDE A LA PROGRAMMATION EN LOGISTIQUE URBAINE (O+)
+
+#### Comment utiliser l'outil
+
+## Nécessite R Studio et Excel
+## Ne jamais modifier ou supprimer le fichier "modele input.xlsx"
+## Ne jamais modifier ou supprimer le fichier "modele output.xlsx"
+## Ne jamais modifier le contenu du dossier "data"
+
+## Pour définir les inputs du modèle : 
+# copier "modele input.xlsx" dans le dossier "Progralog - User" 
+# coller le fichier dans le dossier "input"
+# donner un nom de scenario au fichier excel
+# modifier les valeurs des cellules pertinentes du fichier pour définir le scénario
+# enregistrer et fermer le fichier
+
+## Pour lancer le programme une fois le fichier input modifié
+# ouvrir le script "scenario.R" dans RStudio 
+# suivre les inscriptions du script (charger les packages, modifier le chemin, définir le nom du scenario (le même qui a été donné au fichier excel))
+# lancer la commande de lecture de script (source) - uniquement lorsque toutes les étapes précédentes ont été réalisées
