@@ -1,6 +1,8 @@
 .Rhistory
 .RData
 *.Rproj.user
-~.xlsx
-*.xlsx
-data/*.csv
+~$*.xlsx
+*.tmp
+*.bak
+output/
+cache/
